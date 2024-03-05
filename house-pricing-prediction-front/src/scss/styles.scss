@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#root {
+  width: 650px;
+  height: 550px;
+  align-self: center;
+}
+
+.separator {
+  height: 45px;
+}
+
+#my-navbar {
+  font: 700 21px Karla;
+  border-radius: 3px 3px 0px 0px;
+  height: 65px;
+  background: linear-gradient(90deg, #2B32B2 1.18%, #1488CC 100%);
+  img {
+    margin-right: 4px;
+  }
+  .react-project-3-title {
+    font: 500 12px Inter;
+  }
+}
+
+#meme-generator {
+  width: 100%;
+  border-color: #374151;
+  .page {
+    .input-field-label {
+      color: var(--gray-700, #374151);
+      font: 500 14px Karla;
+      margin-bottom: 3.27px;
+    }
+
+    .checkbox-label {
+      color: var(--gray-700, #374151);
+      font: 500 14px Karla;
+      padding: 0px 10px;
+    }
+    
+    > .input-field {
+      font: 400 14px Karla;
+      display: flex;
+      padding: 7.369px 10.644px;
+      align-items: center;
+      gap: 6.55px;
+    }
+
+    .generate-meme-btn {
+      font: 700 16px Karla;
+      width: 100%;
+      height: 40px;
+      margin-top: 15px;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #2B32B2 1.14%, #1488CC 100%);
+      img {
+        margin-left: 4px;
+      }
+    }
+    .meme-image {
+      margin-top: 32px;
+      img {
+        width: 100%;
+        border-radius: 2px;
+      }
+    }
+    h3.prediction {
+      font: 700 24px Karla;
+    }
+  }
+}
